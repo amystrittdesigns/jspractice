@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Animals of the Day & Night</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+
+<script>
+var current= new Date()
+var day_night=current.getHours ()
+if (day_night<=1)
+document.write("<img class='timepic' src='images/tiger.svg'>")
+else
+document.write("<img class='timepic' src='images/raccoon.svg'>")
+</script>
+
+</body>
+</html>
